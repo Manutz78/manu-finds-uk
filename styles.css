@@ -6,3 +6,26 @@
 
 /* Optional analytics choice and editorial guides */
 .cookie-notice[hidden]{display:none!important}.cookie-notice{position:fixed;bottom:16px;left:16px;right:16px;max-width:640px;margin:auto;background:#181818;color:#fff;padding:18px 20px;border:1px solid #c8a66c;z-index:100;box-shadow:0 8px 30px #0004}.cookie-notice p{margin:0 0 12px;font-size:13px}.cookie-notice a{color:#ead8b6}.cookie-notice>div{display:flex;gap:10px;flex-wrap:wrap}.cookie-notice button{background:#c8a66c;color:#161616;border:0;padding:9px 16px;cursor:pointer;font-weight:700}.cookie-notice button+button{background:transparent;color:#fff;border:1px solid #aaa}.article-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.article{padding:28px;background:#fff;border:1px solid #e1d7c8}.article h3{font-size:25px}.article-icon{font-size:30px;color:#a67f4a}.article-foot{font-size:12px;color:#65513a}@media(max-width:700px){.article-grid{grid-template-columns:1fr}}
+
+/* Colourful editorial refresh with lifestyle photography (not product photographs) */
+:root{--gold:#e5a84e;--goldlight:#ffe2aa;--cream:#fff8ef;--ink:#242034;--muted:#686477}
+body{background:#fff9f3}
+.hero-photo{background:linear-gradient(90deg,rgba(26,18,40,.94) 0%,rgba(40,25,55,.82) 45%,rgba(32,25,40,.3) 100%),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=85') center/cover no-repeat,#362c43}
+.hero-inner{padding-top:125px;padding-bottom:125px}
+.hero h1 em{color:#ffd18e}
+.btn{border-radius:50px;background:#ffc46b;box-shadow:0 8px 26px #0003}
+.site-header{background:#211c2c}
+.category{position:relative;overflow:hidden;isolation:isolate;border-radius:22px;min-height:335px;color:#fff;box-shadow:0 10px 28px #281b3021}
+.category-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .35s ease}
+.category-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(19,14,34,.07) 0%,rgba(19,14,34,.24) 35%,rgba(18,11,34,.88) 100%)}
+.category:hover .category-photo{transform:scale(1.08)}
+.category-home{background:#bb7b75}.category-kitchen{background:#df975a}.category-beauty{background:#ba789b}.category-gadgets{background:#657bb5}
+.category-text strong{font-size:39px;color:#fff}.category-text small,.category-text span{color:#fff2e9}
+.section-top .eyebrow{color:#a84e7e}.section h2{color:#352342}
+.pick{border-radius:16px;border-color:#ebdfe9;box-shadow:0 5px 18px #3423450d;background:linear-gradient(145deg,#fff,#fffaf7)}
+.pick-link{background:#583768;color:#fff;border-radius:9px}.pick-link:hover,.pick-link:focus-visible{background:#b55483}
+.products-note,.disclosure{background:#fff0df;border-left-color:#df7f81;border-radius:0 12px 12px 0}
+.trend-banner{display:grid;grid-template-columns:1fr 1fr;overflow:hidden;border-radius:24px;margin-bottom:36px;background:linear-gradient(130deg,#573f76,#bd648a);color:#fff;min-height:280px}
+.trend-banner>div{padding:40px;display:flex;flex-direction:column;justify-content:center;gap:12px}.trend-banner .eyebrow{color:#ffe4aa}.trend-banner strong{font:clamp(28px,3.5vw,48px)/1.13 Georgia,serif}.trend-banner span{font-size:14px;color:#ffecf6}.trend-banner img{width:100%;height:100%;min-height:280px;object-fit:cover}
+@media(max-width:700px){.hero-photo{background-position:60% center}.hero-inner{padding-top:90px;padding-bottom:90px}.trend-banner{grid-template-columns:1fr}.trend-banner img{height:200px;min-height:200px}.category{min-height:260px}}
+@media(prefers-reduced-motion:reduce){.category-photo{transition:none}}
