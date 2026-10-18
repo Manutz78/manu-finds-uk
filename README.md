@@ -1,30 +1,20 @@
-# MANU Finds UK — website draft
+# MANU Finds UK
 
-A static website for GitHub Pages. **Not published, registered or linked to an Amazon Associates account.**
+Live site: https://manutz78.github.io/manu-finds-uk/
 
-## Contents
-- `index.html` — homepage, category sections and original starter guides
-- `styles.css` — responsive black/champagne-gold visual styling
-- `script.js` — mobile navigation and copyright year
-- `privacy.html` — provisional privacy/cookies page
-- `disclosure.html` — provisional affiliate disclosure page
+A static, responsive GitHub Pages website covering home, kitchen, beauty and gadgets. Participating in Amazon Associates UK; tracking ID is managed in the Amazon Associates account and should only be used when generating approved product links.
 
-## Before public launch
-1. Check brand and domain/trademark availability, including similar names.
-2. Confirm your business contact method and add it to the site.
-3. Review the privacy/cookie page and legal obligations for the services you use.
-4. Replace placeholder social labels with verified TikTok/Pinterest links.
-5. Add further substantial, original, useful articles and product comparisons before applying to Amazon Associates.
-6. After Amazon approval, add the required exact Amazon Associate disclosure, prominent link-level advertising disclosures and compliant affiliate links. Do not use Amazon images/prices/reviews without appropriate permission or approved tools.
-7. Do not present the site as already enrolled in Amazon Associates.
+## Current features
+- Black-and-champagne-gold homepage with responsive navigation
+- Original buying checklists and editorial guidance
+- Amazon affiliate disclosure and privacy information
+- No live product-specific affiliate links or embedded Amazon product assets yet
 
-## Publish to GitHub Pages (only when ready)
-1. Sign in to github.com and create a **new public repository** called `manu-finds-uk` (if available).
-2. Upload the six site files to the repository **root** (not the outer folder).
-3. Open **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, branch **main**, folder **/(root)**, and save.
-4. Once deployed, GitHub will show a URL such as `https://YOUR-USERNAME.github.io/manu-finds-uk/`. This is an example, not a verified live address.
-5. Verify all navigation links, mobile layout, legal pages and HTTPS. The site uses Google Fonts; these require internet access and may be subject to privacy considerations.
-6. Do not purchase or connect a custom domain until domain/trademark checks are complete.
-
-## Edit
-Open HTML files in a text editor and edit the text. The category blocks link to on-page sections. No products or paid links are currently featured.
+## Next steps
+1. Generate specific product links inside Amazon Associates using the correct tracking ID and check that they resolve correctly.
+2. Add original product comparisons with clearly labelled affiliate links; never invent testing or reviews.
+3. Add a dedicated contact method and update the privacy page accordingly.
+4. Verify actual website behavior on mobile and desktop and review accessibility.
+5. Keep the privacy/cookie notice updated when adding analytics, embeds or tracking technologies.
+6. Add verified social media profile links when available.
+7. Keep all published content compliant with the current Amazon Associates Operating Agreement and applicable UK advertising/privacy rules.
